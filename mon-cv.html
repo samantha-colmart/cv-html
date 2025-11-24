@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon CV</title>
+    <style>
+      /* Styles pour la section compétences */
+      .skills-list {
+        list-style: none; /* supprime les puces */
+        display: flex; /* affiche les compétences sur une ligne */
+        gap: 20px; /* espace entre chaque compétence */
+        padding: 0;
+      }
+
+      .skills-list li {
+        display: flex;
+        flex-direction: column; /* image au-dessus du texte */
+        align-items: center;
+        text-align: center;
+      }
+
+      .skills-list img {
+        width: 50px; /* largeur des logos */
+        height: 50px; /* hauteur des logos */
+        object-fit: contain; /* garde les proportions originales */
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--TITRE-->
+    <h1>Samantha COLMART</h1>
+
+    <section>
+      <article>
+        <h2>Informations Personnelles</h2>
+        <p>
+          Date de Naissance : 06/08/2002 <br />
+          Lieu de Résidence : Cannes-la-Bocca <br />Numéro : 06.20.50.39.43
+          <br />Email : samantha0608@hotmail.fr
+        </p>
+      </article>
+
+      <hr />
+      <!--OBJ PRO-->
+
+      <article>
+        <h2>Objectif Professionel</h2>
+        <p>
+          Je souhaite trouver une alternance de développeur web pour continuer
+          mes études et devenir développeuse web à part entière.
+        </p>
+      </article>
+
+      <hr />
+      <!--EX PRO-->
+
+      <article>
+        <h2>Expériences Professionelles</h2>
+
+        <h4>Secrétaire Médicale</h4>
+        <p>Radiologie : Les Elfes<br />De Septembre à Octobre 2023</p>
+
+        <h4>Secrétaire Médecine Douce</h4>
+        <p>Cabinet de Garance Malterre (Sophrologue)<br />Septembre 2024</p>
+      </article>
+
+      <hr />
+      <!--SCO et FOR-->
+
+      <article>
+        <h2>Etudes et Formations</h2>
+        <h4>Brevet des Collèges</h4>
+        <p>Collège Jean Jaurès (62)<br />2017/2018<br />Mention : Très Bien</p>
+
+        <h4>Titre Profesionnel de Secrétaire Assistante Médico-Sociale</h4>
+        <p>
+          FLC Formation (06)<br />De Juin à Décembre 2023<br />Obtention à 100%
+        </p>
+      </article>
+
+      <hr />
+      <!--COMP-->
+
+      <article>
+        <h2>Mes Compétences</h2>
+        <ul class="skills-list">
+          <li>
+            <img src="images/html.jpeg" alt="Logo HTML" />
+            <span>HTML</span>
+          </li>
+          <li>
+            <img src="images/css.jpeg" alt="Logo CSS" />
+            <span>CSS</span>
+          </li>
+          <li>
+            <img src="images/Python.jpeg" alt="Logo Python" />
+            <span>Python</span>
+          </li>
+          <li>
+            <img src="images/linux.jpeg" alt="Logo Linux" />
+            <span>Linux</span>
+          </li>
+        </ul>
+      </article>
+
+      <hr />
+      <!--lien GH et PDF-->
+
+      <article>
+        <h2>Liens Utiles</h2>
+        <p>
+          Mon Profil Github :
+          <a href="https://github.com/samantha-colmart" target="_blank"
+            >Mon Github</a
+          >
+        </p>
+
+        <p>
+          Télécharger mon CV :
+          <a href="CV_Samantha_Colmart.pdf" download>Télécharger le PDF</a>
+        </p>
+      </article>
+    </section>
+  </body>
+</html>
