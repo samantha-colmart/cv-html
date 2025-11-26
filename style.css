@@ -1,8 +1,57 @@
 body {
-    background-color: rgb(59, 34, 82);
-    color: rgba(255, 20, 145, 0.601) ;
+    background-color: rgba(155, 104, 203, 0.86);
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    color: #333;
+    line-height: 1.5;
 }
 
-.bannière {
-    background-color: black;
+h1 {
+    text-align: center;
+    font-size: 2.4em;
+    color: #222;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section-title {
+    color: #0056b3;
+    border-left: 4px solid #0056b3;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+/* --------- COMPÉTENCES (ANCIEN STYLE REPRIS D'HTML) --------- */
+
+.skills-list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    justify-content: center;
+}
+
+.skills-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-list img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+/* --------- LIENS --------- */
+
+a {
+    color: #0056b3;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
 }
